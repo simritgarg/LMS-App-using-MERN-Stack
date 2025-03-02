@@ -1,0 +1,38 @@
+
+uploads
+# Ignore node_modules (dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp
+.pnp.js
+
+# Ignore environment files (API keys, database URLs)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore log files
+*.log
+logs
+*.pid
+*.seed
+*.lock
+
+# Ignore build files
+dist/
+out/
+build/
+
+# Ignore VS Code settings
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+dump.rdb
